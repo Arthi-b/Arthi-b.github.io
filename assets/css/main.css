@@ -1627,7 +1627,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #688880;
+			background-color: #7fb0a4;
 			color: #ffffff !important;
 		}
 
