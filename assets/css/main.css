@@ -98,9 +98,9 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Helvetica Sans', sans-serif;
 		line-height: 1.85em;
-		color: #888;
+		color: #000000;
 		font-weight: 300;
 		font-size: 13pt;
 	}
@@ -124,7 +124,7 @@ input, select, textarea {
 
 	b, strong {
 		font-weight: 600;
-		color: #3e3e3e;
+		color: #000000;
 	}
 
 	i, em {
@@ -193,9 +193,8 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-top: solid 1px #444;
-		border-top-color: rgba(0, 0, 0, 0.35);
-		box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
+		border-top: solid 1px #ffffff;
+		border-top-color: rgba(255, 255, 255, 0.81);
 		height: 1px;
 		margin: 3em 0;
 	}
@@ -1536,7 +1535,7 @@ input, select, textarea {
 			}
 
 			table.default thead {
-				background: #4f4f4f;
+				background: #52796f;
 				color: #fff;
 			}
 
@@ -1616,10 +1615,8 @@ input, select, textarea {
 		outline: 0;
 		cursor: pointer;
 		border-radius: 8px;
-		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
-		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #ffc4e2;
+		background-color: #5e8376;
 		padding: 1em 2.35em 1em 2.35em;
 		font-size: 1.1em;
 		max-width: 24em;
@@ -1630,8 +1627,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #fce9f4;
-			color: #fff !important;
+			background-color: #688880;
+			color: #ffffff !important;
 		}
 
 		input[type="button"]:active,
@@ -1658,7 +1655,6 @@ input, select, textarea {
 		button.alt,
 		.button.alt {
 			background-color: #444;
-			box-shadow: inset 0px 0px 0px 1px #242424, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.2);
 		}
 
 			input[type="button"].alt:hover,
@@ -1666,7 +1662,7 @@ input, select, textarea {
 			input[type="reset"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background-color: #4f4f4f;
+				background-color: #ffffff;
 				color: #fff !important;
 			}
 
@@ -1675,7 +1671,7 @@ input, select, textarea {
 			input[type="reset"].alt:active,
 			button.alt:active,
 			.button.alt:active {
-				background-color: #3f3f3f;
+				background-color: #52796f;
 			}
 
 /* List */
@@ -1737,10 +1733,10 @@ input, select, textarea {
 					-webkit-transition: background-color .2s ease-in-out;
 					-ms-transition: background-color .2s ease-in-out;
 					transition: background-color .2s ease-in-out;
-					background-color: #c197c5;
+					background-color: #4b559b;
 					border-radius: 6px;
 					box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
-					color: #2E2E2E !important;
+					color: #ffffff !important;
 					display: block;
 					font-size: 26px;
 					height: 48px;
@@ -1748,7 +1744,6 @@ input, select, textarea {
 					text-align: center;
 					outline: 0;
 					overflow: hidden;
-					text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.1);
 					width: 48px;
 				}
 
@@ -1789,7 +1784,6 @@ input, select, textarea {
 
 	.box {
 		background: #fff;
-		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		text-align: center;
 		padding: 2em;
 	}
@@ -1865,30 +1859,26 @@ input, select, textarea {
 
 	.wrapper {
 		background-image: url("images/bg.png");
-		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		padding: 8em 0 8em 0;
 		text-align: center;
 	}
 
 		.wrapper.style1 {
 			background-image: none;
-			background-color: #fff;
+			background-color: #fefae0;
 		}
 
 		.wrapper.style2 {
-			background-color: #fafafa;
-			text-shadow: 1px 1px 0px #fff;
+			background-color: #faedcd;
 		}
 
 		.wrapper.style3 {
-			background-color: #f4f4f4;
-			text-shadow: 1px 1px 0px #fff;
+			background-color: #fefae0;
 		}
 
 		.wrapper.style4 {
-			background-color: #303030;
-			color: #999;
-			text-shadow: -1px -1px 0px #181818;
+			background-color: #283618;
+			color: #ffffff;
 		}
 
 			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
@@ -1907,13 +1897,13 @@ input, select, textarea {
 				.wrapper.style4 form input[type=password]:focus,
 				.wrapper.style4 form select:focus,
 				.wrapper.style4 form textarea:focus {
-					background: #252525;
+					background: #a38c8c;
 				}
 
 /* Nav */
 
 	#nav {
-		background-color: #282828;
+		background-color: #283618;
 		text-align: center;
 		position: fixed;
 		left: 0;
@@ -1956,7 +1946,7 @@ input, select, textarea {
 
 			#nav a:hover {
 				color: #fff !important;
-				background: #383838;
+				background: #3f380d;
 			}
 
 			#nav a.active {
@@ -1987,15 +1977,15 @@ input, select, textarea {
 	}
 
 		#top .image {
-			border-radius: 100%;
+			/* border-radius: 100%; */ /* Remove or comment out this line */
 			width: 20em;
 			height: 20em;
 			margin: 0;
 		}
 
-			#top .image img {
-				border-radius: 100%;
-			}
+		#top .image img {
+			/* border-radius: 100%; */ /* Remove or comment out this line */
+		}
 
 		#top h1 {
 			margin-top: 0.35em;
