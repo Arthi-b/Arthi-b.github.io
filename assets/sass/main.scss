@@ -700,6 +700,74 @@
 		}
 	}
 
+/* Portfolio Custom Styles */
+
+	.strategy-logo {
+		display: block;
+		width: 100%;
+		max-width: 280px;
+		height: 140px;
+		margin: 0 auto 2em auto;
+		object-fit: contain;
+	}
+
+	.experience-content {
+		max-width: 850px;
+		margin: 0 auto;
+		text-align: left;
+
+		h3,
+		.experience-details,
+		> h4 {
+			text-align: center;
+		}
+
+		> h4 {
+			margin-top: 2em;
+		}
+	}
+
+	.experience-highlights {
+		display: flex;
+		gap: 1.5em;
+		margin: 2.5em 0;
+	}
+
+	.experience-highlight {
+		flex: 1;
+		background: #f4f4f4;
+		padding: 1.5em;
+		text-align: center;
+		border-radius: 8px;
+
+		h4 {
+			margin-bottom: 0.5em;
+		}
+
+		p {
+			margin-bottom: 0;
+		}
+	}
+
+	.project-card {
+		height: 100%;
+
+		p {
+			margin-bottom: 1em;
+		}
+
+		.image.featured {
+			height: 230px;
+			overflow: hidden;
+
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+	}
+
 /* Icons */
 
 	.icon {
@@ -990,6 +1058,26 @@
 /* Small */
 
 	@include breakpoint('<=small') {
+		/* Portfolio Custom Styles */
+
+			.strategy-logo {
+				max-width: 220px;
+				height: 110px;
+			}
+
+			.experience-highlights {
+				display: block;
+			}
+
+			.experience-highlight {
+				margin-bottom: 1.5em;
+			}
+
+			.project-card {
+				.image.featured {
+					height: 200px;
+				}
+			}
 
 		/* Basic */
 
