@@ -17,3 +17,5 @@ Other:
 - Updated images, text content, and section ordering
 - Adjusted styling and responsiveness to suit portfolio needs
 - Integrated additional links and interactive elements
+
+Link: https://arthi-b.github.io/
